@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.mypy_cache/
+.ruff_cache/
+
+# Frontend
+node_modules/
+dist/
+
+# Secrets & local config (never commit these)
+.env
+.env.local
+.env.*.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*~
+
+# Local TrainKit data (never on repo)
+.trainkit/
